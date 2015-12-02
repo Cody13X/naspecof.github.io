@@ -123,17 +123,19 @@ a:hover {
   text-decoration: none;
   color: purple;
 }
+header{
+  margin-top: -40px;
+}
 h1 {
-  padding-top: 50px;
   padding-bottom: 5px;
   text-align: center;
 }
 .txtdef {
   display: block;
   padding-bottom: 20px;
-  font-size:30px;
+  font-size: 30px;
 }
-#lien2, #lien3, #lien4, #lien5{
+#lien1, #lien2, #lien3, #lien4{
   font-family: 'chardonsregular';
 }
 h2, h3 {
