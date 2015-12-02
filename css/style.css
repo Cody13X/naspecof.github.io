@@ -388,3 +388,21 @@ h2, h3 {
 .prosace {
   text-align: center;
 }
+
+.bouton a {
+  border-radius: 30px;
+  box-shadow: 11px 11px 14px 1px rgba(0, 0, 0, 0.86);
+  -moz-box-shadow: 11px 11px 14px 1px rgba(0, 0, 0, 0.86);
+  -webkit-box-shadow: 11px 11px 14px 1px rgba(0, 0, 0, 0.86);
+  display: block;
+  width: 150px;
+  line-height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  background: #F70000 no-repeat;
+  color: #342727;
+  text-decoration: none;
+}
+.bouton a:hover {
+  background: #F2C573 no-repeat;
+}
