@@ -385,7 +385,13 @@ h2, h3 {
   bottom: 30px
 }
 
-.prosace {
+.prosace, footer{
+  text-align: center;
+}
+
+#lien6{
+  padding-top: 50px;
+  padding-bottom: 30px;
   text-align: center;
 }
 
