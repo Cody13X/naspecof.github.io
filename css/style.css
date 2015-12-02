@@ -5,10 +5,14 @@ body {
   /*  color: #f0f0f0;*/
   font-family: 'Lato', Arial, sans-serif;
   background-color: #E6E6E6;
+
+
+
 }
-.container {
+.container{
   width: 100%;
   margin: 0;
+
 }
 *::before, *::after {
   box-sizing: border-box;
@@ -56,6 +60,8 @@ body {
   text-shadow: none;
   color: hsla(0, 0%, 0%, 0.12);
 }
+
+
 .ot-letter-left span:before, .ot-letter-left span:after {
   transform-origin: 0 50%;
 }
@@ -81,11 +87,9 @@ body {
 .ot-letter-left:hover span:after {
   color: #ea6253;
 }
-
 /*.ot-letter-top {
   background: #ee7f72;
 }*/
-
 .ot-letter-top span:after {
   color: #ee7f72;
 }
@@ -146,7 +150,7 @@ body {
   transform: scale(1, 1.05) skew(4deg, 0deg);
 }
 .ot-letter-bottom span:after {
-  color: #BF00FF;
+  color : #BF00FF;
   text-shadow: 0px -1px 0px hsla(360, 100%, 100%, 0.1), 0px 3px 1px hsla(0, 0%, 0%, 0.4);
   transform: rotateX(15deg);
 }
@@ -159,26 +163,33 @@ body {
 .ot-letter-bottom:hover span:after {
   color: #eb6e60;
 }
+
 .contenu {
-  position: relative;
-  width: 100%;
-  height: 25%;
+position: relative;
+width: 100%;
+height: 25%;
+
+
 }
+
 .circle {
   position: absolute;
   top: 20px;
   width: 250px;
-  height: 250px;
+  height:250px;
   border-radius: 50%;
 }
+
+
 .purple {
   left: -20px;
   background-color: #AC58FA;
   opacity: 0.6;
 }
-.orange {
+
+.orange{
   background-color: #FAAC58;
-  left: 150px;
+  left:150px;
 }
 .red {
   left: 300px;
@@ -190,11 +201,32 @@ body {
   left: 500px;
   background-color: #FA58AC;
 }
-.yellow {
-  text-align: left;
-  left: 700px;
-  background-color: #FE2E2E;
-}
+ .yellow {
+   text-align: left;
+   left: 700px;
+   background-color: #FE2E2E;
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 a {
   /*  display: block;
   position: absolute;*/
@@ -234,15 +266,17 @@ h1 {
 .txtdef {
   display: block;
   padding-bottom: 20px;
-  font-size: 30px;
+  font-size:30px;
 }
 h2, h3 {
   text-align: center;
 }
+
 .Bienvenue {
   font-size: 90px;
   font-family: bold italic;
 }
+
 .C1:hover {
   transform: rotate(360deg);
   transition: linear 5s;
@@ -254,10 +288,12 @@ h2, h3 {
   height: 500px;
   width: 500px
 }
+
 .C2:hover {
   transform: rotate(360deg);
   transition: linear 5s;
 }
+
 .C2 {
   position: absolute;
   background: red;
@@ -269,10 +305,12 @@ h2, h3 {
   height: 200px;
   width: 200px
 }
+
 .C3:hover {
   transform: rotate(360deg);
   transition: linear 5s;
 }
+
 .C3 {
   position: absolute;
   background: grey;
@@ -284,10 +322,12 @@ h2, h3 {
   height: 200px;
   width: 200px
 }
+
 .C4:hover {
   transform: rotate(360deg);
   transition: linear 5s;
 }
+
 .C4 {
   position: absolute;
   background: yellow;
@@ -310,10 +350,12 @@ h2, h3 {
   height: 190px;
   width: 190px
 }
+
 .C6:hover {
   transform: rotate(360deg);
   transition: linear 5s;
 }
+
 .C6 {
   position: absolute;
   background: orange;
@@ -325,9 +367,11 @@ h2, h3 {
   left: 150px;
   bottom: 30px
 }
+
 .prosace {
   text-align: center;
 }
+
 .bouton a {
   border-radius: 30px;
   box-shadow: 11px 11px 14px 1px rgba(0, 0, 0, 0.86);
