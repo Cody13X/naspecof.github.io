@@ -8,14 +8,22 @@
   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
   <link type="style" rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/component.css"/>
+  <link rel="stylesheet" type="text/css" href="css/animations.css"/>
+  <script src="js/modernizr.custom.js"></script>
 </head>
 
 <body>
-  <div class="container">
+  <div class="pt-triggers">
+    <button id="iterateEffects" class="pt-touch-button">Show next page transition</button>
+  </div>
+  <div id="pt-main" class="pt-perspective">
+    <div class="pt-page pt-page-1">
+        <div class="container">
     <div class="row">
       <nav class="col-xs-12 navbar">
         <ul class="grid">
-          <!--<a href="#test" class="tester">.</a>-->
+
           <li class="ot-letter-left">
             <span data-letter="N">N</span>
           </li>
@@ -41,104 +49,246 @@
             <span data-letter="F">F</span>
           </li>
         </ul>
-        <!--  <a href="#lien1" class="lettren">.</a>
-        <a href="#lien2" class="lettres">.</a>
-        <a href="#lien3" class="3lettree">.</a>
-        <a href="#lien4" class="4lettreo">.</a>-->
+
       </nav>
     </div>
+  </div>
+</div>
+      <div class="pt-page pt-page-2">
 
-    <header class="col-xs-12">
-      <h1>Qui sommes nous ?</h1>
-      <p>Ob haec et huius modi multa, quae cernebantur in paucis, omnibus timeri sunt coepta. et ne tot malis dissimulatis paulatimque serpentibus acervi crescerent aerumnarum, nobilitatis decreto legati mittuntur: Praetextatus ex urbi praefecto et ex vicario
-        Venustus et ex consulari Minervius oraturi, ne delictis supplicia sint grandiora, neve senator quisquam inusitato et inlicito more tormentis exponeretur.</p>
-    </header>
 
-    <div class="row">
-      <div class=class="col-xs-12 txtdef">
-        <!--<p id="myP">Un peu de texte, <a>un lien</a> et <strong>une portion en emphase</strong></p>-->
-        <marquee>Bienvenue sur notre site !</marquee>
-        <marquee direction="right">Cliquez sur une lettre !</marquee>
+<div class="container">
+        <div class="row">
+          <h2 id="lien1" class="col-xs-12">Chef de projet, M. Yannick HASPAROF</h2>
+          <div class="C1 col-xs-12">
+            <div class="C2">
+              <div class="prosace">
+                <p>Objectifs</p>
+                <ul>
+                  <li>Création d'entreprise</li>
+                  <li>Devenir développeur Web</li>
+                  <li>Maîtriser la disco dance</li>
+                </ul>
+              </div>
+            </div>
+            <div class="C3">
+              <div class="prosace">
+                <p>Compétences</p>
+                <ul>
+                  <li>C++</li>
+                  <li>3DS max</li>
+                  <li>YouPorn</li>
+                </ul>
+              </div>
+            </div>
+            <div class="C4">
+              <div class="prosace">
+                <p>Caractérisques</p>
+                <ul>
+                  <li>Dynamique</li>
+                  <li>Souriant</li>
+                  <li>Dictateur</li>
+                </ul>
+              </div>
+            </div>
+            <div class="C5">
+              <p>photo</p>
+            </div>
+            <div class="C6">
+              <div class="prosace">
+                <p>Expériences</p>
+                <ul>
+                  <li>Chef de projet Jeux Vidéo</li>
+                  <li>Développement Jeux Vidéo</li>
+                  <li>Dorcel production (figurant)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
 
-    <div class="row">
-      <h2 id="lien1" class="col-xs-12">Presentation1</h2>
-      <p>est un symbole typographique qui sert à désigner un paragraphe dans un renvoi. Il est suivi d'une espace insécable et des caractères désignant le paragraphe auquel il renvoie. Il est parfois doublé pour indiquer plusieurs paragraphes.
-        <p>
+      <div class="pt-page pt-page-3">
 
-            <div class="C1">
-              <div class="C2">
-                <p classe="prosace">Objectifs
+        <div class="row">
+          <h2 id="lien2" class="col-xs-12">Larbin, M. Anthony JMALOQ</h2>
+
+          <div class="C1 col-xs-12">
+            <div class="C2">
+              <div class="prosace">
+                <p>Objectifs</p>
                 <ul>
-                  <li></li>
-                  <li></li>
+                  <li>Développeur web</li>
+                  <li>Entrepreneuriat</li>
                   <li></li>
                 </ul>
-                </p>
               </div>
-              <div class="C3">
+            </div>
+            <div class="C3">
+              <div class="prosace">
                 <p>Compétences</p>
                 <ul>
-                  <li></li>
-                  <li></li>
-                  <li></li>
+                  <li>C--</li>
+                  <li>Language inconnu</li>
+                  <li>Kung fu</li>
                 </ul>
               </div>
-              <div class="C4">
+            </div>
+            <div class="C4">
+              <div class="prosace">
                 <p>Caractérisques</p>
                 <ul>
-                  <li></li>
-                  <li></li>
+                  <li>chauve</li>
+                  <li>sent bon</li>
+                  <li>révolutionnaire</li>
+                </ul>
+              </div>
+            </div>
+            <div class="C5">
+              <p>photo</p>
+            </div>
+            <div class="C6">
+              <div class="prosace">
+                <p>Expériences</p>
+                <ul>
+                  <li>Conducteur de travaux</li>
+                  <li>Secret Story 2</li>
+                  <li>Ascension du Mont Blanc</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="pt-page pt-page-4">
+
+        <div class="row">
+          <h2 id="lien3" class="col-xs-12">Larbin 2, M. Florent DE MONTRICHER</h2>
+
+
+          <div class="C1 col-xs-12">
+            <div class="C2">
+              <div class="prosace">
+                <p>Objectifs</p>
+                <ul>
+                  <li>BTS Geek</li>
+                  <li>Jouer au dernier Zelda</li>
                   <li></li>
                 </ul>
               </div>
-              <div class="C5">
-                <p>photo</p>
+            </div>
+            <div class="C3">
+              <div class="prosace">
+                <p>Compétences</p>
+                <ul>
+                  <li>CSS</li>
+                  <li>HTML</li>
+                  <li>Tétris</li>
+                </ul>
               </div>
-              <div class="C6">
+            </div>
+            <div class="C4">
+              <div class="prosace">
+                <p>Caractérisques</p>
+                <ul>
+                  <li>Timide</li>
+                  <li>Déterminé</li>
+                  <li>Naturiste</li>
+                </ul>
+              </div>
+            </div>
+            <div class="C5">
+              <p>photo</p>
+            </div>
+            <div class="C6">
+              <div class="prosace">
                 <p>Expériences</p>
                 <ul>
-                  <li></li>
+                  <li>Boost power</li>
+                  <li>Playstation</li>
+                  <li>Nintendo DS</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="pt-page pt-page-5">
+
+        <div class="row">
+          <h2 id="lien4" class="col-xs-12">Directrice artisque, Mlle Jousna YARIENLA</h2>
+
+
+          <div class="C1 col-xs-12">
+            <div class="C2">
+              <div class="prosace">
+                <p>Objectifs</p>
+                <ul>
+                  <li>Devenir moins chiante</li>
+                  <li>Etre plus belle</li>
+                  <li>Rencontrer Bernard Delavillardiere</li>
+                </ul>
+              </div>
+            </div>
+            <div class="C3">
+              <div class="prosace">
+                <p>Compétences</p>
+                <ul>
+                  <li>Reine des chieuse</li>
+                  <li>Emmerdeuse</li>
+                  <li>Feignante</li>
+                </ul>
+              </div>
+            </div>
+            <div class="C4">
+              <div class="prosace">
+                <p>Caractérisques</p>
+                <ul>
+                  <li>Souriante</li>
+                  <li>Sociable</li>
+                  <li>Dynamique</li>
+                </ul>
+              </div>
+            </div>
+            <div class="C5">
+              <p>photo</p>
+            </div>
+            <div class="C6">
+              <div class="prosace">
+                <p>Expériences</p>
+                <ul>
+                  <li>20ans de commérage</li>
                   <li></li>
                   <li></li>
                 </ul>
               </div>
             </div>
+          </div>
 
+        </div>
+      </div>
+      <div class="pt-page pt-page-6">
+
+        <section class=class="col-xs-12 conference">
+          <h3>Vidéo de présentation de groupe</h3>
+          <iframe width="420" height="315" src="https://www.youtube.com/embed/d4qldY0g_dI" frameborder="0" allowfullscreen></iframe>
+        </section>
+
+      </div>
     </div>
-
-    <div class="row">
-      <h2 id="lien2" class="col-xs-12">Presentation2</h2>
-    </div>
-
-    <div class="row">
-      <h2 id="lien3" class="col-xs-12">Presentation3</h2>
-    </div>
-
-    <div class="row">
-      <h2 id="lien4" class="col-xs-12">Presentation4</h2>
-    </div>
-
-    <section class=class="col-xs-12 conference">
-      <h3>Vidéo de présentation de groupe</h3>
-      <iframe width="420" height="315" src="https://www.youtube.com/embed/d4qldY0g_dI" frameborder="0" allowfullscreen></iframe>
-    </section>
 
     <footer class="row">
       <p>Copyrights NASPECOF 2015 Tous droits réservés.</p>
     </footer>
-
-
-
-
-
-
-
-
-
-
-  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="js/jquery.dlmenu.js"></script>
+  <script src="js/pagetransitions.js"></script>
 </body>
 
 </html>
