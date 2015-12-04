@@ -33,21 +33,21 @@ body {
 }
 .orange {
   background-color: #FAAC58;
-  left: 150px;
+/*  left: 66px;*/
 }
 .red {
-  left: 300px;
+/*  left: 216px;*/
   background-color: #FFFF00;
   opacity: 0.75;
 }
 .pink {
   text-align: center;
-  left: 500px;
+/*  left: 416px;*/
   background-color: #FA58AC;
 }
 .yellow {
   text-align: left;
-  left: 700px;
+/*  left: 616px;*/
   background-color: #FE2E2E;
 }
 a {
@@ -121,7 +121,6 @@ h2,h3 {
 .C2 {
   position: absolute;
   background: red;
-  opacity: 0.5;
   top: 150px;
   right: 1px;
   border-radius: 50%;
@@ -137,7 +136,6 @@ h2,h3 {
 .C3 {
   position: absolute;
   background: grey;
-  opacity: 0.5;
   top: 150px;
   left: 1px;
   border-radius: 50%;
@@ -153,7 +151,6 @@ h2,h3 {
 .C4 {
   position: absolute;
   background: yellow;
-  opacity: 0.5;
   left: 150px;
   top: 30px;
   border-radius: 50%;
@@ -171,6 +168,7 @@ h2,h3 {
   border: 1px solid white;
   height: 100px;
   width: 150px;
+  z-index: 999;
 }
 
 .C1:hover .C6 {
@@ -179,8 +177,7 @@ h2,h3 {
 }
 .C6 {
   position: absolute;
-  background: orange;
-  opacity: 0.5;
+  background: orange;  ;
   border-radius: 50%;
   border: 1px solid orange;
   height: 200px;
@@ -198,9 +195,9 @@ h2,h3 {
   font-family: verdana;
 }
 footer {
-  background-color: black;
+
   text-align: center;
-  color: red;
+  color: white;
 }
 footer > p {
   margin-top: 1%;
@@ -225,7 +222,7 @@ footer > p {
   line-height: 50px;
   text-align: center;
   vertical-align: middle;
-  background: #F70000 no-repeat;
+  background: #0080FF no-repeat;
   color: #342727;
   text-decoration: none;
 }
@@ -254,4 +251,7 @@ input, textarea {
     margin:0;
     width:100%;
   }
+}
+audio {
+  z-index: 9999;
 }

@@ -94,7 +94,7 @@ html, body { height: 100%; }
 }
 
 .pt-page-6 {
-	background: #f68dbb;
+	background: black;
 }
 
 /* Triggers (menu and button) */
@@ -103,12 +103,12 @@ html, body { height: 100%; }
 	position: absolute;
 	width: 300px;
 	z-index: 999999;
-	top: 12%;
+	top: 50%;
 	left: 50%;
 	margin-top: 130px;
 	-webkit-transform: translateX(-50%);
 	-moz-transform: translateX(-50%);
-	-ms-transform: translateX(-50%); 
+	-ms-transform: translateX(-50%);
 	transform: translateX(-50%);
 }
 
@@ -141,16 +141,27 @@ html, body { height: 100%; }
 }
 
 .pt-touch-button {
+	position: absolute;
 	background: #fff;
-	color: #aaa;
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+	box-shadow: 1px 1px 12px black;
+	font-size: 15px;
+	font-family: serif;
+	left: 400px;
+
 }
 
 .pt-triggers .dl-menuwrapper button {
 	margin-bottom: 0;
 }
 
+button:focus {outline:0;}
+
 .pt-touch-button:active {
-	box-shadow: 0 1px 0 rgba(0,0,0,0.1);
+	/*box-shadow: 0 1px 0 rgba(0,0,0,0.1);*/
+
 }
 
 .touch .pt-triggers .dl-menuwrapper {
@@ -199,7 +210,7 @@ html, body { height: 100%; }
 	}
 }
 
-@media screen and (max-height: 38em) { 
+@media screen and (max-height: 38em) {
 	.pt-triggers .dl-menuwrapper {
 		display: none;
 	}

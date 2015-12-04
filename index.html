@@ -13,14 +13,34 @@
   <link rel="stylesheet" type="text/css" href="css/component.css" />
   <link rel="stylesheet" type="text/css" href="css/animations.css" />
   <script src="js/modernizr.custom.js"></script>
+  <script>
+    function blink(ob) {
+      if (ob.style.visibility == "visible") {
+        ob.style.visibility = "hidden";
+      } else {
+        ob.style.visibility = "visible";
+      }
+    }
+    setInterval("blink(bl)", 750);
+  </script>
 </head>
 
 <body>
+
   <div class="pt-triggers">
-    <button id="iterateEffects" class="pt-touch-button">Show next page transition</button>
+
+    <button id="iterateEffects" class="pt-touch-button">
+      <div id="bl" style="visibility: visible">
+        <font color=black>Show next presention</font>
+      </div>
+    </button>
+    </font>
+  </div>
   </div>
   <div id="pt-main" class="pt-perspective">
+
     <div class="pt-page pt-page-1">
+      <audio src="audio.mp3" loop autoplay controls></audio>
       <div class="container">
         <div class="row">
           <nav class="col-md-12 col-xs-12 navbar">
@@ -28,10 +48,10 @@
 
               <div class="contenu">
                 <div class="circle purple"></div>
-                <div class="circle yellow"></div>
-                <div class="circle orange"></div>
-                <div class="circle red"></div>
-                <div class="circle pink"></div>
+                <div class="col-xs-offset-9 circle yellow"></div>
+                <div class="col-xs-offset-2 circle orange"></div>
+                <div class="col-xs-offset-4 circle red"></div>
+                <div class="col-xs-offset-7 circle pink"></div>
               </div>
 
               <li class="ot-letter-left">
@@ -63,6 +83,9 @@
           </nav>
         </div>
       </div>
+      <footer class="row">
+        <p class="col-sm-12">Copyrights NASPECOF 2015 Tous droits réservés.</p>
+      </footer>
     </div>
     <div class="pt-page pt-page-2">
 
@@ -102,7 +125,7 @@
               </div>
             </div>
             <div class="C5">
-              <p>photo</p>
+              <img src="photos/Anthony2.png"/>
             </div>
             <div class="C6">
               <div class="prosace">
@@ -110,7 +133,7 @@
                 <ul>
                   <li>Chef de projet Jeux Vidéo</li>
                   <li>Développement Jeux Vidéo</li>
-                  <li>Dorcel production (figurant)</li>
+                  <li>Dorcel prod.</li>
                 </ul>
               </div>
             </div>
@@ -118,6 +141,9 @@
 
         </div>
       </div>
+      <footer class="row">
+        <p class="col-sm-12">Copyrights NASPECOF 2015 Tous droits réservés.</p>
+      </footer>
     </div>
 
     <div class="pt-page pt-page-3">
@@ -133,7 +159,7 @@
                 <ul>
                   <li>Développeur web</li>
                   <li>Entrepreneuriat</li>
-                  <li></li>
+                  <li>Frapper Florent</li>
                 </ul>
               </div>
             </div>
@@ -151,14 +177,14 @@
               <div class="prosace">
                 <p>Caractérisques</p>
                 <ul>
-                  <li>chauve</li>
-                  <li>sent bon</li>
-                  <li>révolutionnaire</li>
+                  <li>Chauve</li>
+                  <li>Sent bon</li>
+                  <li>Révolutionnaire</li>
                 </ul>
               </div>
             </div>
             <div class="C5">
-              <p>photo</p>
+              <img src="photos/Anthony2.png"/>
             </div>
             <div class="C6">
               <div class="prosace">
@@ -174,6 +200,9 @@
 
         </div>
       </div>
+      <footer class="row">
+        <p class="col-sm-12">Copyrights NASPECOF 2015 Tous droits réservés.</p>
+      </footer>
     </div>
 
     <div class="pt-page pt-page-4">
@@ -190,7 +219,7 @@
                 <ul>
                   <li>BTS Geek</li>
                   <li>Jouer au dernier Zelda</li>
-                  <li></li>
+                  <li>OKLM</li>
                 </ul>
               </div>
             </div>
@@ -215,7 +244,7 @@
               </div>
             </div>
             <div class="C5">
-              <p>photo</p>
+              <img src="photos/Anthony2.png"/>
             </div>
             <div class="C6">
               <div class="prosace">
@@ -231,6 +260,9 @@
 
         </div>
       </div>
+      <footer class="row">
+        <p class="col-sm-12">Copyrights NASPECOF 2015 Tous droits réservés.</p>
+      </footer>
     </div>
 
     <div class="pt-page pt-page-5">
@@ -247,7 +279,7 @@
                 <ul>
                   <li>Devenir moins chiante</li>
                   <li>Etre plus belle</li>
-                  <li>Rencontrer Bernard Delavillardiere</li>
+                  <li>Frapper Florent</li>
                 </ul>
               </div>
             </div>
@@ -272,29 +304,37 @@
               </div>
             </div>
             <div class="C5">
-              <p>photo</p>
+              <img src="photos/Anthony2.png"/>
             </div>
             <div class="C6">
               <div class="prosace">
                 <p>Expériences</p>
                 <ul>
-                  <li>20ans de commérage</li>
-                  <li></li>
-                  <li></li>
+                  <li>20 ans de commérage</li>
+                  <li>Couscous</li>
+                  <li>Frapper Florent</li>
                 </ul>
               </div>
             </div>
-          </div>
+          </div><
         </div>
 
       </div>
+      <footer class="row">
+        <p class="col-sm-12">Copyrights NASPECOF 2015 Tous droits réservés.</p>
+      </footer>
     </div>
     <div class="pt-page pt-page-6">
       <div class="container">
 
         <section class=class="col-xs-12 conference">
-          <h3>Vidéo de présentation de groupe</h3>
-          <iframe width="420" height="315" src="https://www.youtube.com/embed/d4qldY0g_dI" frameborder="0" allowfullscreen></iframe>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+
+          <center><iframe width="560" height="315" src="https://www.youtube.com/embed/itFMBrnorTA" frameborder="0" allowfullscreen></iframe><center>
         </section>
 
 
