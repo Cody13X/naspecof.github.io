@@ -1,4 +1,4 @@
-html, body { height: 100%; }
+html { height: 100%; }
 
 .pt-perspective {
 	position: relative;
@@ -100,12 +100,10 @@ html, body { height: 100%; }
 /* Triggers (menu and button) */
 
 .pt-triggers {
-	position: absolute;
-	width: 300px;
+  position: absolute;
 	z-index: 999999;
-	top: 50%;
-	left: 50%;
-	margin-top: 130px;
+	top: 78%;
+	left: 90%;
 	-webkit-transform: translateX(-50%);
 	-moz-transform: translateX(-50%);
 	-ms-transform: translateX(-50%);
@@ -141,34 +139,25 @@ html, body { height: 100%; }
 }
 
 .pt-touch-button {
-	position: absolute;
 	background: #fff;
 	border-radius: 50%;
 	height: 150px;
-	width: 150px;
+	width: 170px;
 	box-shadow: 1px 1px 12px black;
 	font-size: 15px;
 	font-family: serif;
-	left: 400px;
-
 }
 
-.pt-triggers .dl-menuwrapper button {
+/*.pt-triggers .dl-menuwrapper button {
 	margin-bottom: 0;
-}
+}*/
 
 button:focus {outline:0;}
-
-.pt-touch-button:active {
-	/*box-shadow: 0 1px 0 rgba(0,0,0,0.1);*/
-
-}
 
 .touch .pt-triggers .dl-menuwrapper {
 	display: none;
 }
-
-.pt-message {
+/*.pt-message {
 	display: none;
 	position: absolute;
 	z-index: 99999;
@@ -184,13 +173,13 @@ button:focus {outline:0;}
 	margin: 0;
 	line-height: 60px;
 	font-size: 26px;
-}
+}*/
 
 .no-cssanimations .pt-message {
 	display: block;
 }
 
-@media screen and (max-width: 47.4375em) {
+/*@media screen and (max-width: 47.4375em) {
 	.pt-page h1 {
 		font-size: 3em;
 	}
@@ -203,7 +192,7 @@ button:focus {outline:0;}
 @media screen and (max-height: 45.9em) {
 	.pt-triggers .dl-menuwrapper li a {
 		padding-top: 2px;
-		padding-bottom: 2px;
+		padding-bottom: 20px;
 	}
 	.pt-triggers .dl-menuwrapper li.dl-back:after, .dl-menuwrapper li > a:not(:only-child):after {
 		line-height: 24px;
@@ -214,4 +203,4 @@ button:focus {outline:0;}
 	.pt-triggers .dl-menuwrapper {
 		display: none;
 	}
-}
+}*/

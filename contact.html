@@ -8,23 +8,30 @@
   <link type="style" rel="stylesheet" href="css/style.css">
 </head>
 
-	<div class="row formulaire">
-		<form class="col-xs-12" action="mailto:somebody@example.com" method="POST" enctype="multipart/form-data">
-				<label for="name">Ton nom:</label>
-				<br />
-				<input id="name" class="input" name="name" type="text" value="" size="30" />
-				<br />
+  <div class="container">
+  	<div class="row formulaire">
+  		<form class="col-xs-12" action="mailto:somebody@example.com" method="POST" enctype="multipart/form-data">
+  				<label for="name">Ton nom:</label>
+  				<br />
 
-				<label for="email">Ton email:</label>
-				<br />
-				<input id="email" class="input" name="email" type="text" value="" size="30" />
-				<br />
+          <div class="row">
+          <div class="col-xs-12">
+  				<input id="name" class="input" name="name" type="text" value="" size="30" />
+        </div>
+        </div>
+  				<br />
 
-				<label for="message">Ton message:</label>
-				<br />
-				<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea>
-				<br />
+  				<label for="email">Ton email:</label>
+  				<br />
+  				<input id="email" class="input" name="email" type="text" value="" size="30" />
+  				<br />
 
-				<input id="submit_button" type="submit" value="Send email" />
-		</form>
-	</div>
+  				<label for="message">Ton message:</label>
+  				<br />
+  				<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea>
+  				<br />
+
+  				<input id="submit_button" type="submit" value="Envois" />
+  		</form>
+  	</div>
+  </div>
